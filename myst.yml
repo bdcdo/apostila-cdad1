@@ -1,0 +1,37 @@
+version: 1
+
+project:
+  title: Ciência de Dados Aplicada ao Direito
+  description: >
+    Material didático sobre ciência de dados aplicada ao direito,
+    cobrindo fundamentos de programação, automação, análise de dados,
+    processamento de linguagem natural, web scraping e estatística.
+  keywords:
+    - ciência de dados
+    - direito
+    - Python
+    - jurimetria
+  authors:
+    - name: Ivar Hartmann
+    - name: Bruno da Cunha de Oliveira
+  toc:
+    - file: index.md
+    - title: "Parte I: Fundamentos de Programação"
+      children:
+        - file: notebooks/01_fundamentos_programacao.ipynb
+        - file: notebooks/02_automacao_tarefas.ipynb
+    - title: "Parte II: Dados e Análise"
+      children:
+        - file: notebooks/03_grande_volume_dados.ipynb
+        - file: notebooks/04_analise_linguagem_natural.ipynb
+    - title: "Parte III: Fontes de Dados e Incerteza"
+      children:
+        - file: notebooks/05_fontes_adicionais_dados_juridicos.ipynb
+        - file: notebooks/06_lidando_incerteza.ipynb
+  settings:
+    output_stderr: remove
+    output_stdout: remove
+
+site:
+  template: book-theme
+  title: Ciência de Dados Aplicada ao Direito

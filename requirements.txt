@@ -1,0 +1,6 @@
+mystmd
+numpy
+pandas
+matplotlib
+requests
+beautifulsoup4
