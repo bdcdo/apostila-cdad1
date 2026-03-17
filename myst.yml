@@ -30,7 +30,6 @@ project:
         - file: notebooks/06_lidando_incerteza.ipynb
   settings:
     output_stderr: remove
-    output_stdout: remove
 
 site:
   template: book-theme
