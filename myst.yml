@@ -35,3 +35,4 @@ project:
 site:
   template: book-theme
   title: Ciência de Dados Aplicada ao Direito
+  base_url: /apostila-cdad1
